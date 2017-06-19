@@ -38,11 +38,10 @@ end
 # when running `mix release`, the first release in the file
 # will be used by default
 
-release :myapp do
+release :hello_phoenix do
   set version: current_version(:hello_phoenix)
   set applications: [
-    :runtime_tools,
-    :hello_phoenix
+    :runtime_tools
   ]
 end
 
